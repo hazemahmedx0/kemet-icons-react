@@ -11,7 +11,7 @@ export { default as ArrowDownLeft } from './Icons/ArrowDownLeft';
 export { default as ArrowUpRight } from './Icons/ArrowUpRight';
 export { default as ArrowDownRight } from './Icons/ArrowDownRight';
 export { default as ArrowUpLeft } from './Icons/ArrowUpLeft';
-export { default as ChevronRight } from './Icons/chevronRight';
+export { default as ChevronRight } from './Icons/ChevronRight';
 export { default as ChevronDown } from './Icons/ChevronDown';
 export { default as ChevronUp } from './Icons/ChevronUp';
 export { default as ChevronLeft } from './Icons/ChevronLeft';
