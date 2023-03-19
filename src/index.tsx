@@ -23,5 +23,22 @@ export { default as TrianglLeft } from './Icons/TrianglLeft';
 export { default as TrianglRight } from './Icons/TrianglRight';
 export { default as TrianglUp } from './Icons/TrianglUp';
 export { default as TrianglDown } from './Icons/TrianglDown';
+//
+export { default as CaretSort } from './Icons/CaretSort';
+export { default as Circle } from './Icons/Circle';
+export { default as CircleSlash } from './Icons/CircleSlash';
+export { default as HamburgerMenu } from './Icons/HamburgerMenu';
+export { default as Height } from './Icons/Height';
+export { default as Magnifier } from './Icons/Magnifier';
+export { default as Minus } from './Icons/Minus';
+export { default as Move } from './Icons/Move';
+export { default as Size } from './Icons/Size';
+export { default as Width } from './Icons/Width';
+export { default as X } from './Icons/X';
+export { default as XCircle } from './Icons/XCircle';
+export { default as XSmall } from './Icons/XSmall';
+export { default as Zap } from './Icons/Zap';
+export { default as ZoomIn } from './Icons/ZoomIn';
+export { default as ZoomOut } from './Icons/ZoomOut';
 
 export { KemetProvider, KemetContext, KemetContextValue } from './KemetContext';
