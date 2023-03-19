@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { KemetContext } from './KemetContext';
-function SvgHome(
+import { KemetContext } from '../KemetContext';
+function SvgCaretUp(
   passedProps: React.SVGProps<SVGSVGElement>,
   svgRef?: React.Ref<SVGSVGElement>
 ) {
@@ -22,15 +22,13 @@ function SvgHome(
       {...props}
     >
       <path
+        d="M16 13L12 9L8 13"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
-        d="M4,10.5V19c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1v-5
-	c0-0.6,0.4-1,1-1h2c0.6,0,1,0.4,1,1v5c0,0.6,0.4,1,1,1h4c0.6,0,1-0.4,1-1v-8.5c0-0.3-0.1-0.6-0.3-0.8l-7-6.1c-0.4-0.3-0.9-0.3-1.3,0
-	l-7,6.1C4.1,9.9,4,10.2,4,10.5z"
       />
     </svg>
   );
 }
-const ForwardRef = React.forwardRef(SvgHome);
+const ForwardRef = React.forwardRef(SvgCaretUp);
 export default ForwardRef;

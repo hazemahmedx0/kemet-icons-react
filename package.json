@@ -1,11 +1,10 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
-    "dist",
-    "src"
+    "dist"
   ],
   "engines": {
     "node": ">=10"
@@ -21,6 +20,18 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hazemmahdyx/kemet-icons-react.git"
+  },
+  "keywords": [
+    "icons",
+    "svg",
+    "library",
+    "react",
+    "Kemet icons"
+  ],
+  "homepage": "https://kemeticon.com",
   "peerDependencies": {
     "react": ">=16"
   },

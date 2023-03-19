@@ -1,5 +1,5 @@
-import * as React from "react";
-function SvgIconoir(
+import * as React from 'react';
+function SvgArrowLeft(
   props: React.SVGProps<SVGSVGElement>,
   svgRef?: React.Ref<SVGSVGElement>
 ) {
@@ -7,8 +7,8 @@ function SvgIconoir(
     <svg
       width="1.5em"
       height="1.5em"
-      strokeWidth={1.5}
       viewBox="0 0 24 24"
+      strokeWidth={1.5}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       color="currentColor"
@@ -16,13 +16,13 @@ function SvgIconoir(
       {...props}
     >
       <path
-        d="M12 16a4 4 0 100-8 4 4 0 000 8z"
+        d="M4 12L19 12"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
       <path
-        d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2z"
+        d="M10 6L4 12L10 18"
         stroke="currentColor"
         strokeLinecap="round"
         strokeLinejoin="round"
@@ -30,5 +30,5 @@ function SvgIconoir(
     </svg>
   );
 }
-const ForwardRef = React.forwardRef(SvgIconoir);
+const ForwardRef = React.forwardRef(SvgArrowLeft);
 export default ForwardRef;
